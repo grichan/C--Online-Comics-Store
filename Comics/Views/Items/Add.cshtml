@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <label for="title" class="col-sm-2 control-label">
+                        title
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="title" placeholder="title" />
+                    </div>
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="category" class="col-sm-2 control-label">
+                        category
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="category" placeholder="category" />
+                    </div>
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="price" class="col-sm-2 control-label">
+                        price
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="price" placeholder="price" />
+                    </div>
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="qty" class="col-sm-2 control-label">
+                        qty
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="qty" placeholder="qty" />
+                    </div>
+                </div>
+                <br>
+
+            <div class="form-group">
+                <label for="qty" class="col-sm-2 control-label">
+                    file
+                </label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control" id="file" placeholder="iamgeURL" />
+                </div>
+            </div>
+            <br>
+
+            <button type="submit" onclick="UploadImage()" value="Upload"  class="btn btn-default">Submit</button>
+            </form>
+
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+
+<script>
+    // CLICK ADD ---------------------------------------------------------------------->
+    var UploadImage = function () {
+
+        var data = new FormData;
+
+        var file = $("#file").get(0).files;
+        var qty = $("#qty").val();
+        var title = $("#title").val();
+        var category = $("#category").val();
+        var price = $("#price").val();
+
+        data.append("file", file[0]);
+        data.append("qty", qty);
+        data.append("title", title);
+        data.append("category", category);
+        data.append("price", price);
+
+        $.ajax({
+            type: "POST",
+            url: "/Items/UploadFile",
+            data: data,
+            contentType: false,
+            processData: false,
+            success: function (imgID) {
+                aler("SUCCESS NAAB" + data);
+            }
+        })
+    }
+    
+
+</script>
+<style>
+    label{
+        margin:3px;
+    }
+</style>

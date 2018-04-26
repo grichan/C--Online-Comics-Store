@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+
+
+        @foreach (var item in Model.items_list)
+        {
+                <div class="card">
+                    <img class="card-img-top " src="~/Content/Images/@item.iamgeURL" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">@item.name </h4>
+                        <p class="card-text">Disc</p>
+                        <a href="details/@item.id" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+        }
+
+</div>
+
+<script>
+
+    var Cart = { 'name': 'John' };
+    sessionStorage.setItem('user', JSON.stringify(user));
+    var obj = JSON.parse(sessionStorage.getItem('user')); // An object :D
+    console.log(obj);
+
+
+
+</script>
+
+<style>
+    * {
+        margin: 0;
+    }
+    .card > img {
+          display: inline-block;
+          width: 100%;
+          
+    }
+    .card {
+          display: inline-block;
+            width: 200px;
+            height:410px;
+            margin: 7px;
+            top:10px;
+            overflow: hidden;
+
+    }
+
+    .card-title{
+          text-overflow: ellipsis;
+          overflow: hidden;
+white-space: nowrap;
+
+    }
+</style>

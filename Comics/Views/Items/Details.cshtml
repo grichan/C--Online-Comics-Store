@@ -1,0 +1,157 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row" align="center">
+
+        <div class="row"></div>
+
+        <div class="col-md-6">
+
+            <img class="img-responsive" src="~/Content/Images/@Model.iamgeURL" alt="Card image cap">
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <h2>@Model.name</h2>
+
+                <p>
+                   @Model.category
+                </p>
+            </div>
+            <div class="row bottom">
+                <h3><b>PRICE: @Model.price €<b></h3>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div class="row"  >
+
+        <div class="col-md-6">
+        </div>
+        <div id="buttons" class="col-md-6" align="right">
+            <button class="btn btn-Danger " id="buy" href="">Buy</button>
+            <button id="add" class="btn btn-Info" href="">Add To Cart</button>
+        </div>
+
+    </div>
+</div>
+
+<br><br>
+
+<style>
+    .col-md-6 img 
+    {
+        max-height:450px;
+    }
+
+</style>
+
+<script>
+
+    $(document).ready(function () {
+
+        $(document).on("click", "#add", function () {
+            var oldItems = JSON.parse(localStorage.getItem('Cart'));// convert to js object
+
+            if ( oldItems === null || oldItems[0]["total"] <= 0) {
+                var CartArray = [];
+                CartArray[0] = { 'total': "1" }; // how many items are in the cart
+                var jsonString = ' '; // json string
+                CartArray[1] =
+                    {
+                        "items":
+                        [
+                            { "Id": "@Model.id", "Name": "@Model.name", "Price": "@Model.price", "Url": "@Model.iamgeURL" }
+                        ]
+                    };
+                localStorage.setItem("Cart", JSON.stringify(CartArray));
+                $('#check').html(' 1 In <span class="glyphicon glyphicon-shopping-cart">');
+                alert("creating...Adding....");
+
+            } else {
+                //alert("adding...");
+                var oldItems = JSON.parse(localStorage.getItem('Cart')); //get the cart json obj
+                //alert(oldItems[1]["items"][0]["Name"].toString());
+
+                var toatalIncart = oldItems[0]["total"].toString(); //get how many items are in the cart
+                var toatalInt = parseInt(++toatalIncart); // to int total in cart
+                //alert(toatalInt.toString());
+
+
+                var itemString = "item" + toatalIncart.toString(); // concatinate item2
+                //alert(itemString);
+                var jsonString = ' { "Id":"@Model.id","Name":"@Model.name", "Price":"@Model.price", "Url":"@Model.iamgeURL" } '; // json string
+                var jsonTotal = ' {"total":"' + toatalInt + '"} '; // json string for total number of items
+                var newItem = JSON.parse(jsonString); // convert from json string to json object yoo
+                oldItems[0] = JSON.parse(jsonTotal); // new total value
+
+                oldItems[1]["items"].push(newItem);
+                //alert("PUSHED");
+                localStorage.setItem('Cart', JSON.stringify(oldItems));
+
+                $('#check').html(' ' + toatalInt + ' In <span class="glyphicon glyphicon-shopping-cart">');
+
+
+
+            }
+        });
+    });
+
+
+    $(document).ready(function () {
+
+        $(document).on("click", "#buy", function () {
+            var oldItems = JSON.parse(localStorage.getItem('Cart'));// convert to js object
+
+            if (oldItems === null || oldItems[0]["total"] <= 0) {
+                var CartArray = [];
+                CartArray[0] = { 'total': "1" }; // how many items are in the cart
+                var jsonString = ' '; // json string
+                CartArray[1] =
+                    {
+                        "items":
+                        [
+                            { "Id": "@Model.id", "Name": "@Model.name", "Price": "@Model.price", "Url": "@Model.iamgeURL" }
+                        ]
+                    };
+                localStorage.setItem("Cart", JSON.stringify(CartArray));
+                $('#check').html(' 1 In <span class="glyphicon glyphicon-shopping-cart">');
+                //alert("creating...Adding....");
+                $(location).attr('href', '/checkout');
+
+            } else {
+                //alert("adding...");
+                var oldItems = JSON.parse(localStorage.getItem('Cart')); //get the cart json obj
+                //alert(oldItems[1]["items"][0]["Name"].toString());
+                var toatalIncart = oldItems[0]["total"].toString(); //get how many items are in the cart
+                var toatalInt = parseInt(++toatalIncart); // to int total in cart
+                //alert(toatalInt.toString());
+
+
+                var itemString = "item" + toatalIncart.toString(); // concatinate item2
+                //alert(itemString);
+                var jsonString = ' { "Id":"@Model.id","Name":"@Model.name", "Price":"@Model.price", "Url":"@Model.iamgeURL" } '; // json string
+                var jsonTotal = ' {"total":"' + toatalInt + '"} '; // json string for total number of items
+                var newItem = JSON.parse(jsonString); // convert from json string to json object yoo
+                oldItems[0] = JSON.parse(jsonTotal); // new total value
+
+                oldItems[1]["items"].push(newItem);
+                //alert("PUSHED");
+                localStorage.setItem('Cart', JSON.stringify(oldItems));
+                $('#check').html(' ' + toatalInt + ' In <span class="glyphicon glyphicon-shopping-cart">');
+                $(location).attr('href', '/checkout');
+
+
+            }
+        });
+    });
+  </script>

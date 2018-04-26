@@ -1,0 +1,201 @@
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\ApplicationInsights.config
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\csc.exe
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\System.Collections.Immutable.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\vbc.exe
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\VBCSCompiler.exe
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\roslyn\VBCSCompiler.exe.config
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Comics.dll.config
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Comics.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Comics.pdb
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.Web.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.WindowsServer.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.ApplicationInsights.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.Web.Infrastructure.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Helpers.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Mvc.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Razor.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Webpages.Deployment.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Webpages.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Webpages.Razor.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.Web.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.AI.WindowsServer.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.ApplicationInsights.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Razor.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Webpages.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Webpages.Deployment.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Webpages.Razor.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Helpers.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\System.Web.Mvc.xml
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.csprojResolveAssemblyReference.cache
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.dll
+c:\users\senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.pdb
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\csc.exe.config
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\csc.rsp
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\csi.exe
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\csi.exe.config
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\csi.rsp
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\Microsoft.Win32.Primitives.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.AppContext.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Console.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Diagnostics.Process.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.IO.Compression.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.IO.FileSystem.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.IO.Pipes.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Security.AccessControl.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Security.Claims.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Security.Principal.Windows.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Threading.Thread.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.ValueTuple.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Xml.XmlDocument.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Xml.XPath.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\vbc.exe.config
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\roslyn\vbc.rsp
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\System.Diagnostics.DiagnosticSource.dll
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+c:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\EntityFramework.dll
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\EntityFramework.SqlServer.dll
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\EntityFramework.xml
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\bin\EntityFramework.SqlServer.xml
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.InitialModel.resources
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.csproj.GenerateResource.Cache
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.DateTimeadded.resources
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.ImageURLAdded.resources
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.DatabaseMyDbContextEddited.resources
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.upupDateBig.resources
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.upupDate2.resources
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.update3.resources
+C:\Users\Senpai\Documents\Visual Studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.LoginChanges.resources
+C:\Users\Senpai\documents\visual studio 2015\Projects\Comics\Comics\obj\Debug\Comics.Migrations.LoginRegister.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\ApplicationInsights.config
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Comics.dll.config
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Comics.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Comics.pdb
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\csc.exe
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\csc.exe.config
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\csc.rsp
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\csi.exe
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\csi.exe.config
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\csi.rsp
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.AppContext.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Console.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.IO.Compression.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Security.Claims.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.ValueTuple.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\vbc.exe
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\vbc.exe.config
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\vbc.rsp
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\EntityFramework.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\EntityFramework.SqlServer.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.Web.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Helpers.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Mvc.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Razor.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Webpages.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Webpages.Razor.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\EntityFramework.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\EntityFramework.SqlServer.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.Web.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Razor.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Webpages.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Webpages.Razor.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Helpers.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\bin\System.Web.Mvc.xml
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.csprojResolveAssemblyReference.cache
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.InitialModel.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.DateTimeadded.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.ImageURLAdded.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.DatabaseMyDbContextEddited.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.upupDateBig.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.upupDate2.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.update3.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.LoginChanges.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.Migrations.LoginRegister.resources
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.csproj.GenerateResource.Cache
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.dll
+C:\Users\Vlad\Desktop\Comics (2)\Comics\Comics\obj\Debug\Comics.pdb

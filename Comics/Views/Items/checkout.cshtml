@@ -1,0 +1,192 @@
+﻿
+@{
+    ViewBag.Title = "checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<script>
+    var storedItems = JSON.parse(localStorage.getItem('Cart'));
+    var total = storedItems[0]["total"];
+    document.write();
+</script>
+
+<div class="container">
+    <br>
+    <br>
+    <div class="row ">
+        <div class="col-md-6">
+            <script>
+
+                var total_price = 0;
+                var ItemsArray = new Array(); // array that will be sent to a controller
+                for (var i = 0; i <= total; i++) {
+
+                    var id = storedItems[1]["items"][i]["Id"].toString();
+                    var Name = storedItems[1]["items"][i]["Name"].toString();
+                    var Price = storedItems[1]["items"][i]["Price"].toString();
+                    total_price += parseFloat(Price);
+                    var Url = storedItems[1]["items"][i]["Url"].toString();
+                    ItemsArray.push(id);
+
+
+                    document.write('<div class="row items">');
+
+                    document.write('<div class="col-md-1">');
+                    document.write('<a class="delete" href="#" name="' + i + '">X</a>')
+                    document.write(' </div>');
+
+                    document.write('<div class="col-md-3">');
+                    document.write('<img class="img-responsive" src="/Content/Images/' + Url + '" alt="Card image cap">')
+                    document.write(' </div>');
+
+                    document.write('<div class="col-md-8">');
+                    document.write('<h5>' + Name + '</h5>' + '<p>' + Price + '</p>');
+                    document.write(' </div>');
+
+                    document.write('</div>');
+                };
+
+            </script>
+
+        </div>
+        <div class="col-md-6">
+
+            <h3 id="Total">Total: 0 </h3>
+            <p id="Qty">Qty: 15 items</p>
+            <p id="Method">Shipping Method: Courier delivery</p><br>
+            <button id="clear" type="button" class="btn btn-default">Clear Cart</button><br><br>
+
+            @{
+                int incart;
+                string username;
+                if (Session["Status"] != null)
+                {
+                    username = (string)HttpContext.Current.Session["User"];
+                    <button id="order" type="button" class="btn btn-danger">ORDER NOW</button>
+
+                }
+                else
+                {
+                    <button  type="button" class="btn btn-warning">SIGN IN TO ORDER</button>
+                }
+            }
+
+        </div>
+
+    </div>
+
+    <br><br>
+</div>
+<script>
+    $('#Total').html("TOTAL: " + total_price + "&euro;"); //display it
+    $('#Qty').html("TOTAL: " + total); //display it
+
+
+</script>
+
+<script>
+    // CLEAR CART
+    $("#clear").click(function () {
+        localStorage.removeItem("Cart");
+        location.reload();
+
+    });
+
+</script>
+
+<script>
+    // PLACE ORDER
+    $("#order").click(function () {
+
+        if (confirm("CONFURM ORDER?")) {
+
+            $(document).ready(function () {
+                var serviceURL = 'Items/Order';
+
+                var data = { balance: '"' + ItemsArray + '"' };
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("Order","Items")",
+                    data: JSON.stringify({ 'balance': ItemsArray }),
+                contentType: "application/json",
+                dataType: "json",
+                success: successFunc,
+                error: errorFunc
+            });
+
+            function successFunc(data, status) {
+                alert(data);
+                localStorage.removeItem("Cart");
+                location.reload();
+
+            }
+
+            function errorFunc() {
+                alert('something went wrong');
+            }
+            });
+
+        } else {
+
+        }
+
+    });
+
+</script>
+
+<script>
+    // DELETE BUTTON THE LITTLE X ---------------------------------------->
+    $(".delete").click(function () {
+        var name = $(this).attr("name");
+
+        var oldItems = JSON.parse(localStorage.getItem('Cart')); //get the cart json obj
+        var toatalIncart = oldItems[0]["total"].toString(); //get how many items are in the cart
+        var toatalInt = parseInt(--toatalIncart); // to int total in cart
+        var jsonTotal = ' {"total":"' + toatalInt + '"} '; // json string for total number of items
+
+        oldItems[1]["items"].splice(name, 1);
+
+
+        oldItems[0] = JSON.parse(jsonTotal); // new total value
+        localStorage.setItem('Cart', JSON.stringify(oldItems));
+        //alert("Deleted"); // To test the click
+        $('#foo').addClass('myClass'); // add css class
+        $(this).hide();
+        location.reload();
+    });
+
+
+</script>
+
+<style>
+    * {
+    }
+
+    .img-responsive {
+        z-index: 0;
+        position: relative;
+        max-width: 100px;
+    }
+
+    .items {
+        margin-bottom: 10px;
+    }
+
+    .img-responsive:hover {
+        -moz-transform: scale(2.1);
+        -webkit-transform: scale(2.1);
+        scale(2);
+        scale(2);
+        scale();
+        scale();
+        scale(1);
+        scale(1.8);
+        transform: scale(2.1);
+        z-index: 50000;
+        top: 100px;
+    }
+</style>

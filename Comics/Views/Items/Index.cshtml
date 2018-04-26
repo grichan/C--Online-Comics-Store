@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div id="myCarousel" class="carousel slide"  data-ride="carousel">
+    <!-- Indicators -->
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active ">
+            <img  src="http://img.hungertv.com/wp-content/uploads/2015/10/52326_comics_comic_books-1200x750.jpg" alt="Los Angeles">
+            <div class="carousel-caption">
+                    <h1>WELCOME </h1><br>
+                <p id="caption">
+                    Your number 1 site for comics, graphic novels and everything alike!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <h2>Brand <b>New</b> Comics:</h2>
+    <div class="row">
+        <div class="col-sm-6 col-3-md thumbnail-col">
+            <div class="thumbnail">
+                <a href="#">
+                    <img src="~/Content/Images/@Model[0].iamgeURL" alt="" />
+                </a>
+                <div class="caption">
+                    <h3>@Model[0].name</h3>
+                    <p></p>
+                    <p><a href="details/@Model[0].id" class="btn btn-default" role="button">Details</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-3-md thumbnail-col">
+            <div class="thumbnail">
+                <a href="#">
+                    <img src="~/Content/Images/@Model[1].iamgeURL" alt="" />
+                </a>
+                <div class="caption">
+                    <h3>@Model[1].name</h3>
+                    <p></p>
+                    <p><a href="/details/@Model[1].id" class="btn btn-default" role="button">Details</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-3-md thumbnail-col">
+            <div class="thumbnail">
+                <a href="#">
+                    <img src="~/Content/Images/@Model[2].iamgeURL" alt="" />
+                </a>
+                <div class="caption">
+                    <h3>@Model[2].name</h3>
+                    <p></p>
+                    <p><a href="/details/@Model[2].id" class="btn btn-default" role="button">Details</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-3-md thumbnail-col">
+            <div class="thumbnail">
+                <a href="#">
+                    <img src="~/Content/Images/@Model[3].iamgeURL" alt="" />
+                </a>
+                <div class="caption">
+                    <h3>@Model[3].name</h3>
+                    <p></p>
+                    <p><a href="#" class="btn btn-default" role="button">Details</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+<style>
+    .tales {
+        width: 100%;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        max-height: 350px !important;
+    }
+    .item > img
+    {
+        margin: auto;
+    }
+
+    .carousel-caption {
+        background: rgba(0, 0, 0, 0.68);
+        border: solid;
+        border-color: rgba(0, 0, 0, 0.34);
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
+        top: 10px;
+        max-height:330px;
+        
+    }
+
+    h1 {
+            font-size: 55px;
+        }
+   #caption {
+            font-size: 33px;
+
+    }
+     .thumbnail-col
+     {
+         max-width:284px;
+         
+     }
+     .row
+     {
+         margin:auto;
+     }
+</style>
